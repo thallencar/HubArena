@@ -1,0 +1,13 @@
+.voltar-secao a {
+  margin-right: unset;
+}
+
+.voltar-secao img {
+  width: 13px;
+  transform: rotate(180deg);
+}
+
+.voltar-secao {
+  justify-content: start;
+  margin: 20px 0 30px;
+}
