@@ -6,7 +6,7 @@
     <link rel="icon" href="/assets/img/Logo.svg" />
     <link rel="stylesheet" href="/assets/css/global.css" />
     <link rel="stylesheet" href="/assets/css/login.css" />
-    <link rel="stylesheet" href="/assets/css/cadastro.css" />
+    <link rel="stylesheet" href="/assets/css/cadastro.css" />  
     <title>HubArena</title>
   </head>
 
@@ -22,32 +22,41 @@
         </div>
       </div>
 
+      
+
       <div class="login-container">
         <h1 class="texto-cadastro">CADASTRO</h1>
         <h5 class="section-info">INFORMAÇÕES PESSOAIS</h5>
 
+        <progress class="barra-progresso" value="0" max="100"></progress>
+
         <form action="">
           <div class="container-form">
             <label for="">Nome Completo*</label>
-            <input type="text" name="nomeCompleto" id="nomeCompleto"/>
+            <input type="text" name="nomeCompleto" id="nomeCompleto" />
           </div>
           <div class="container-form">
             <label for="">CPF*</label>
-            <input type="text" name="cpf" id="cpf" />
+            <input type="text" name="cpf" id="cpf" maxlength="11" />
           </div>
           <div class="container-form">
             <label for="">RG*</label>
-            <input type="text" name="rg" id="rg" />
+            <input type="text" name="rg" id="rg" maxlength="9" />
           </div>
           <div class="container-form">
             <label for="">Data de nascimento*</label>
-            <input type="text" name="dtNascimento" id="dtNascimento" />
+            <input type="date" name="dtNascimento" id="dtNascimento" />
           </div>
           <div class="container-form">
             <label for="">Sexo</label>
-            <input type="text" name="sexo" id="sexo" />
+            <select name="sexo" id="sexo">
+              <option value="" disabled selected>Selecione uma opção</option>
+              <option value="">Masculino</option>
+              <option value="">Feminino</option>
+              <option value="">Outros</option>
+            </select>
           </div>
-          
+
           <section class="navigation">
             <div class="voltar-secao">
               <a href="/index.html">
