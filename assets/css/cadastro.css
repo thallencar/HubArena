@@ -4,9 +4,9 @@ html {
 }
 
 .barra-progresso {
-  width: 75%;
+  width: 85%;
   height: 10px;
-  margin: 10px auto 30px; 
+  margin: 0 auto 25px; 
 }
 
 
@@ -28,12 +28,12 @@ progress::-webkit-progress-bar {
 
 .texto-cadastro {
   text-align: center;
-  font: 500 40px var(--fonte-secundaria);
+  font: 600 40px var(--fonte-secundaria);
   margin: 15px 0 5px;
 }
 
 .section-info {
-  font: 500 15px var(--fonte-secundaria);
+  font: 500 19px var(--fonte-secundaria);
   text-align: center;
   margin-bottom: 30px;
 }
@@ -42,10 +42,22 @@ progress::-webkit-progress-bar {
   margin-top: 15px;
 }
 
+select {
+  font: 500 19px var(--fonte-primaria);
+  padding: 14px;
+  border: 3px solid var(--cor-terciaria);
+  border-radius: 8px;
+}
+
+option {
+  font: 500 13px var(--fonte-primaria);
+  border-radius: 8px;
+}
+
 .navigation {
   display: flex;
   justify-content: space-between;
-  padding: 35px 0;
+  padding: 45px 0;
   width: 80%;
 }
 
@@ -78,14 +90,6 @@ progress::-webkit-progress-bar {
   transform: rotate(180deg);
 }
 
-select {
-  font: 18px var(--fonte-terciaria);
-  padding: 14px;
-  border: 3px solid var(--cor-terciaria);
-  border-radius: 8px;
-}
-
-option {
-  font: 15px var(--fonte-terciaria);
-  border-radius: 8px;
+.btn-form {
+  margin: 45px 0 10px;
 }

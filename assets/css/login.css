@@ -24,11 +24,12 @@
 
 .logo-texto {
   display: flex;
+  align-items: center;
 }
 
 .texto-hub {
   font: 700 30px var(--fonte-quartenaria);
-  margin-top: 1px;
+  margin-top: 2px;
 }
 
 .texto-arena {
@@ -49,7 +50,7 @@ form {
 }
 
 input {
-  font: 18px var(--fonte-terciaria);
+  font: 500 19px var(--fonte-primaria); 
   padding: 14px;
   border: 3px solid var(--cor-terciaria);
   border-radius: 8px;
@@ -58,7 +59,7 @@ input {
 .container-form {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 85%;
   margin-top: 15px;
 }
 
@@ -76,7 +77,7 @@ input {
   );
   border: none;
   margin: 60px 0 10px;
-  width: 80%;
+  width: 83%;
   padding: 15px;
 }
 
