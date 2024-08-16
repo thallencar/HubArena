@@ -1,0 +1,26 @@
+.container-create {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.container-create img {
+  width: 20px;
+  transform: rotate(180deg);
+}
+
+.titulo {
+font-size: 36px;
+  margin: 0 10px;
+}
+
+.subtitulo {
+  font-size: 25px;
+  margin: 5px 30px 10px;
+}
+
+.btn-form {
+    margin-bottom: 50px;
+  }
+
